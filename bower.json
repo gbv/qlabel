@@ -1,0 +1,10 @@
+{
+  "name": "qlabel",
+  "version": "0.0.0",
+  "homepage": "https://github.com/maxlath/qlabel",
+  "main": "src/jquery.qlabel.js",
+  "keywords": [
+    "wikidata",
+    "freebase"
+  ]
+}
