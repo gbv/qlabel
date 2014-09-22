@@ -1,7 +1,7 @@
 /**
  * Copyright 2014 Google Inc. All rights reserved.
  * Author: Denny Vrandecic <vrandecic@google.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -317,7 +317,7 @@ $.qLabel = {
   getFreebaseKey: getFreebaseKey
 };
 
-setLoader(semwebTester, semwebLoader);
+// setLoader(semwebTester, semwebLoader);
 setLoader(freebaseTester, freebaseLoader);
 setLoader(wikidataTester, wikidataLoader);
 
@@ -332,7 +332,7 @@ setLoader(wikidataTester, wikidataLoader);
 // loadLabels([callback, [URIs]]) - load the URIs, then execute callback. If no
 //     URIs are given, load all URIs mentioned on the page in qlabel elements.
 //     callback takes no parameters.
-// getKnownURIs() - return all loaded URIs 
+// getKnownURIs() - return all loaded URIs
 // setLoader(tester, loader) - set a loader for URIs that will be run when the
 //     tester function hits. signature of the callback functions:
 //     string tester(string URI) - takes a URI and returns a posibly normalized
