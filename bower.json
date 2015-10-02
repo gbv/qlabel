@@ -1,10 +1,26 @@
 {
   "name": "qlabel",
   "version": "0.0.0",
-  "homepage": "https://github.com/maxlath/qlabel",
+  "homepage": "https://googleknowledge.github.io/qlabel",
   "main": "src/jquery.qlabel.js",
+  "author": [
+    "Denny Vrandečić <denny.vrandecic@wikimedia.de>"
+  ],
+  "description": "jQuery plugin for creating multilingual websites",
   "keywords": [
+    "i18n",
+    "l10n",
     "wikidata",
     "freebase"
-  ]
+  ],
+  "license": "Apache-2.0",
+  "ignore": [
+    ".*",
+    "demo",
+    "docs",
+    "lib",
+  ],
+  "dependencies": {
+    "jquery": "~1.0.0"
+  }
 }
